@@ -10,7 +10,7 @@ def get_online_person(params=None, **kwargs) -> bytes:
     :param kwargs: kwargs used by requests.get
     :return: the image as bytes
     """
-    r = requests.get("https://thispersondoesnotexist.com/image", headers={'User-Agent': 'My User Agent 1.0'}).content
+    r = requests.get("https://thispersondoesnotexist.com", headers={'User-Agent': 'My User Agent 1.0'}).content
     return r
 
 
