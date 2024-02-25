@@ -21,6 +21,11 @@ Why not? Use your imagination!
 * requests library
 * free time
 
+## Install it with pip
+```bash
+pip install git+https://github.com/David-Lor/ThisPersonDoesNotExistAPI
+```
+
 ## Usage
 
 ### Get a person using function
